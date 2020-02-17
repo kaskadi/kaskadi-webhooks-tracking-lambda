@@ -1,5 +1,5 @@
 module.exports.handler = async (event) => {
-  console.log(event)
+  console.log(event.body)
   return {
     statusCode: 200,
     headers: {
