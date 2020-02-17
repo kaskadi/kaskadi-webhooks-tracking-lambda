@@ -1,20 +1,20 @@
-![](https://img.shields.io/github/package-json/v/kaskadi/template-kaskadi-lambda)
+![](https://img.shields.io/github/package-json/v/kaskadi/kaskadi-webhooks-tracking-lambda)
 ![](https://img.shields.io/badge/code--style-standard-blue)
-![](https://img.shields.io/github/license/kaskadi/template-kaskadi-lambda?color=blue)
+![](https://img.shields.io/github/license/kaskadi/kaskadi-webhooks-tracking-lambda?color=blue)
 
 **GitHub Actions workflows status**
 
-![](https://img.shields.io/github/workflow/status/kaskadi/template-kaskadi-lambda/deploy)
+![](https://img.shields.io/github/workflow/status/kaskadi/kaskadi-webhooks-tracking-lambda/deploy)
 
 **CodeClimate**
 
-[![](https://img.shields.io/codeclimate/maintainability/kaskadi/template-kaskadi-lambda?label=maintainability&logo=Code%20Climate)](https://codeclimate.com/github/kaskadi/template-kaskadi-lambda)
-[![](https://img.shields.io/codeclimate/tech-debt/kaskadi/template-kaskadi-lambda?label=technical%20debt&logo=Code%20Climate)](https://codeclimate.com/github/kaskadi/template-kaskadi-lambda)
-[![](https://img.shields.io/codeclimate/coverage/kaskadi/template-kaskadi-lambda?label=test%20coverage&logo=Code%20Climate)](https://codeclimate.com/github/kaskadi/template-kaskadi-lambda)
+[![](https://img.shields.io/codeclimate/maintainability/kaskadi/kaskadi-webhooks-tracking-lambda?label=maintainability&logo=Code%20Climate)](https://codeclimate.com/github/kaskadi/kaskadi-webhooks-tracking-lambda)
+[![](https://img.shields.io/codeclimate/tech-debt/kaskadi/kaskadi-webhooks-tracking-lambda?label=technical%20debt&logo=Code%20Climate)](https://codeclimate.com/github/kaskadi/kaskadi-webhooks-tracking-lambda)
+[![](https://img.shields.io/codeclimate/coverage/kaskadi/kaskadi-webhooks-tracking-lambda?label=test%20coverage&logo=Code%20Climate)](https://codeclimate.com/github/kaskadi/kaskadi-webhooks-tracking-lambda)
 
 **LGTM**
 
-[![](https://img.shields.io/lgtm/grade/javascript/github/kaskadi/template-kaskadi-lambda?label=code%20quality&logo=LGTM)](https://lgtm.com/projects/g/kaskadi/template-kaskadi-lambda/?mode=list&logo=LGTM)
+[![](https://img.shields.io/lgtm/grade/javascript/github/kaskadi/kaskadi-webhooks-tracking-lambda?label=code%20quality&logo=LGTM)](https://lgtm.com/projects/g/kaskadi/kaskadi-webhooks-tracking-lambda/?mode=list&logo=LGTM)
 
 :point_right: **Badges here** :point_left:
 
@@ -25,7 +25,7 @@
 # :computer: Creating a new Lambda from this template :computer:
 
 **Checklist (delete items when done)**
-- create a new repository and choose this repository (`template-kaskadi-lambda`) as template
+- create a new repository and choose this repository (`kaskadi-webhooks-tracking-lambda`) as template
 - clone the new repository to a local working copy
 - set secrets up ([help](#Set-secrets-up))
 - add the new repository to:
