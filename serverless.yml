@@ -38,3 +38,5 @@ functions:
           method: post
           path: tracking
           cors: true
+
+# force
