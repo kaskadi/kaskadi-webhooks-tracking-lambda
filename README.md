@@ -4,7 +4,9 @@
 
 **GitHub Actions workflows status**
 
-![](https://img.shields.io/github/workflow/status/kaskadi/kaskadi-webhooks-tracking-lambda/deploy)
+![](https://img.shields.io/github/workflow/status/kaskadi/kaskadi-webhooks-tracking-lambda/deploy?label=deployed&logo=Amazon%20AWS)
+<!-- Only for branches which are not release/** or master -->
+<!-- ![](https://img.shields.io/github/workflow/status/kaskadi/kaskadi-webhooks-tracking-lambda/test?label=test&logo=mocha) -->
 
 **CodeClimate**
 
