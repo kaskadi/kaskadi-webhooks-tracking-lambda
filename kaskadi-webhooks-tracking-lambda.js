@@ -25,15 +25,15 @@ module.exports.handler = async (event) => {
     return response
   }
   console.log(event.body)
-  esLog(eventBody)
+  await esLog(eventBody)
   return response
 }
 
-function esLog(eventBody) {
+async function esLog(eventBody) {
   const timestamp = Date.now()
   const timestampHex = timestamp.toString(16)
   const logDocId = `${timestampHex[0]}-${timestampHex.substr(1, 5)}-${timestampHex.substr(5, 5)}`
-  es.index({
+  await es.index({
     id: logDocId,
     index: 'ysws-logs',
     body: {
