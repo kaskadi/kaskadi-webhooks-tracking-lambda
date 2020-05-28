@@ -18,16 +18,28 @@ provider:
     restApiId: !ImportValue KaskadiWebhooksRestAPIGatewayId
     restApiRootResourceId: !ImportValue KaskadiWebhooksRestAPIGatewayRootResourceId
 
+layers:
+  KaskadiWebhooksTrackingLayer:
+    path: layer
+    name: ${self:service.name}-layer
+    description: Layer for ${self:service.name}
+    compatibleRuntimes:
+      - nodejs10.x
+      - nodejs12.x
+    licenseInfo: MIT
+    package:
+      include:
+        - '**/**'
+
 functions:
   KaskadiWebhooksTracking:
     handler: kaskadi-webhooks-tracking-lambda.handler
     layers:
-      - !ImportValue KaskadiEsLayerArn
+      - { Ref: KaskadiWebhooksTrackingLayerLambdaLayer }
     name: ${self:service.name}
     package:
       include:
         - 'kaskadi-webhooks-tracking-lambda.js'
-        - 'node_modules/**'
     environment:
       ES_ACCESS_ID: ${env:ES_ACCESS_ID}
       ES_ACCESS_SECRET: ${env:ES_ACCESS_SECRET}
