@@ -41,8 +41,8 @@ functions:
       include:
         - 'kaskadi-webhooks-tracking-lambda.js'
     environment:
-      ES_ACCESS_ID: ${env:ES_ACCESS_ID}
-      ES_ACCESS_SECRET: ${env:ES_ACCESS_SECRET}
+      ES_ID: ${env:ES_ID}
+      ES_SECRET: ${env:ES_SECRET}
       YSWS_TOKEN: ${env:YSWS_TOKEN}
     events:
       - http:

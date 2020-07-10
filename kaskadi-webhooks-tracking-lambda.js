@@ -1,7 +1,7 @@
 const es = require('aws-es-client')({
-  id: process.env.ES_ACCESS_ID,
-  token: process.env.ES_ACCESS_SECRET,
-  url: 'https://search-kaskadi-cl2e6mhgx3zc7ay2e5kkhjet4u.eu-central-1.es.amazonaws.com'
+  id: process.env.ES_ID,
+  token: process.env.ES_SECRET,
+  url: process.env.ES_ENDPOINT
 })
 
 const token = process.env.YSWS_TOKEN
