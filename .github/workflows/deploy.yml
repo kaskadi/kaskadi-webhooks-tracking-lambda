@@ -29,7 +29,7 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_KEY_SECRET }}
         ES_ID: ${{ secrets.ES_ID }}
         ES_SECRET: ${{ secrets.ES_SECRET }}
-        ES_ENDPOINT: ${{ secrets.ES_ENDPOINT }
+        ES_ENDPOINT: ${{ secrets.ES_ENDPOINT }}
         YSWS_TOKEN: ${{ secrets.YSWS_TOKEN }}
     - name: serverless-deploy
       uses: kaskadi/action-slscli@master
@@ -40,5 +40,5 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_KEY_SECRET }}
         ES_ID: ${{ secrets.ES_ID }}
         ES_SECRET: ${{ secrets.ES_SECRET }}
-        ES_ENDPOINT: ${{ secrets.ES_ENDPOINT }
+        ES_ENDPOINT: ${{ secrets.ES_ENDPOINT }}
         YSWS_TOKEN: ${{ secrets.YSWS_TOKEN }}
